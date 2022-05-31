@@ -1,0 +1,11 @@
+.content {
+    width: 80%;
+    height: 4rem;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}

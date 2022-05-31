@@ -1,0 +1,59 @@
+.signup-page {
+    width: 94.9rem;
+    height: 40rem;
+    /* background-color: #b2b2b2; */
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    width: 35rem;
+    height: 35rem;
+    background-color: rgb(220, 232, 243);
+}
+
+.signup-inputs {
+    width: 20rem;
+    height: 24rem;
+    margin-left: 7.5rem;
+}
+
+label {
+    color: gray;
+}
+
+input {
+    width: 15rem;
+    height: 3rem;
+    border: 13px rgb(155, 29, 29);
+    margin: 2rem;
+    border-radius: 1.5rem;
+}
+
+.inputs {
+    border: 13px rgb(155, 29, 29);
+}
+
+.submit {
+    width: 5rem;
+    height: 3rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all .5s;
+}
+
+.signup-button {
+    color: white;
+}

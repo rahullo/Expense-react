@@ -1,0 +1,29 @@
+.nav-container {
+    width: 94.9rem;
+    height: 5rem;
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+.function {
+    position: relative;
+    flex: .55;
+    background-color: aliceblue;
+}
+
+.function-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 17px;
+    font-weight: bold;
+    padding-inline-end: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+    .company,
+    .support,
+    .customer {
+        display: none;
+    }
+}
