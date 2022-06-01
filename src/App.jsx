@@ -1,8 +1,9 @@
 import './App.css';
 import Landing from './components/landingPage/landing.jsx';
-import Record from './components/RecordPage/record';
+// import Record from './components/RecordPage/record';
 import Navigation from './routes/navigation/navigation';
 import SignUp from './components/SignUp/signup.component';
+import LogedINNav from "./routes/LogedInNavigation/LogedInNavigation.routes"
 
 
 import { Routes, Route} from 'react-router-dom'
@@ -19,8 +20,8 @@ function App() {
           <Route path='sign-up' element={<SignUp/>}/>
           <Route path='log-in' element={<Login/>}/>
         </Route>
-        <Route path='/loged-in' element={<LogedIn/>}>
-          <Route  index element={<Record/>}/>
+        <Route path='/loged-in' element={<LogedINNav/>}>
+          <Route  index element={<LogedIn/>}/>
         </Route>
       </Routes>
       

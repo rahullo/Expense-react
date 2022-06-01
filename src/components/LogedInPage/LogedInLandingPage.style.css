@@ -1,0 +1,39 @@
+.landingpage-container {
+    width: 94.9rem;
+    height: 60rem;
+    background-color: white;
+    padding: 0 17rem 0 17rem;
+    box-sizing: border-box;
+}
+
+.months {
+    width: 60rem;
+    height: 40rem;
+    margin-top: 2rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.firsthalfyear {
+    margin-top: 3rem;
+}
+
+.secondhalfyear {
+    margin-top: 3rem;
+}
+
+.month {
+    width: 8rem;
+    height: 3rem;
+    background-color: aquamarine;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
