@@ -4,6 +4,7 @@ import { Fragment} from 'react'
 // import { Link } from 'react-router-dom'
 
 import './record.style.css'
+import { Outlet } from 'react-router'
 
 
 const Record = function() {
@@ -71,6 +72,7 @@ const Record = function() {
     let spend = totalSpending(expense)
     return (
         <Fragment className="App" >
+            <Outlet/>
             <div className="record-main-container">
                 <header className="header">
                     <div className="months">

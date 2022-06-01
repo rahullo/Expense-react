@@ -20,8 +20,8 @@ const Landing = () => {
                     </div>
                     <div class="second-half">
                         <div class="second-half-about">
-                            <h1><span> HAVING MONEY RECORD IS VERY BENFICIAL.</span></h1>
-                            <h2><span>Record Every and take brief knowledge about your expenses and plan accordingly.
+                            <h1><span> HAVING MONEY RECORD IS VERY BENIFICIAL.</span></h1>
+                            <h2><span>Record Every Expenses and take brief discription about your expenses and plan accordingly.
                                 This make life financiely balance</span></h2>
                         </div>
                         {/* < Adam/ > */}

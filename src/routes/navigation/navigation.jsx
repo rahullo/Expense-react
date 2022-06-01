@@ -17,7 +17,6 @@ const Navigation = () => {
                     </Link>
                     <nav className="function">
                         <ul className="function-list">
-                            <Link className='customer' to='/record'><li><button className="customer">Record</button></li></Link> 
                             <li><button>Pricing</button></li>
                             <li><button>Docs</button></li>
                             <li><button>Partner</button></li>

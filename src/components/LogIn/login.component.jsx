@@ -18,8 +18,8 @@ const Login = () => {
                                     name="Password" type='password'/>
                         </form>
                     </div>
-                    <div className="submit">
-                        <Link className='login-button' to='/'>
+                    <div className="login-submit">
+                        <Link className='login-button' to='/loged-in'>
                             <button className='login-button'>Login</button>
                         </Link>
                     </div>

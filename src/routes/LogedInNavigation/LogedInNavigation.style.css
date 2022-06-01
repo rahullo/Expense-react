@@ -1,0 +1,41 @@
+.logedin-nav-container {
+    width: 94.9rem;
+    height: 5rem;
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+.logedin-function {
+    position: relative;
+    flex: .80;
+    background-color: aliceblue;
+}
+
+.logedin-function-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 17px;
+    font-weight: bold;
+    padding-inline-end: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+    .logedin-company,
+    .logedin-support,
+    .logedin-customer {
+        display: none;
+    }
+}
+
+.logedin-logo {
+    width: 25%;
+    height: 5rem;
+    background-color: aliceblue;
+    flex: .25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(119, 237, 198);
+}

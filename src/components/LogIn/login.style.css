@@ -39,7 +39,7 @@ input {
     align-items: center;
 }
 
-.submit {
+.login-submit {
     width: 5rem;
     height: 3rem;
     margin-left: 12.5rem;
@@ -51,7 +51,7 @@ input {
     border-radius: 1rem;
 }
 
-.submit:hover {
+.login-submit:hover {
     cursor: pointer;
     transform: scale(1.05);
     transition: all .5s;

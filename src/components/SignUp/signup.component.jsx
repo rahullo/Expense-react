@@ -22,8 +22,8 @@ const SignUp = () => {
                                     name="confirm password" />
                         </form>
                     </div>
-                    <div className="submit">
-                        <Link className='signup-button' to='/'>
+                    <div className="signup-submit">
+                        <Link className='signup-button' to='/loged-in'>
                             <button className='signup-button'>Sign Up</button>
                         </Link>
                     </div>
