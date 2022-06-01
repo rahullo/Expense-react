@@ -52,38 +52,6 @@ ul {
     color: rgb(119, 237, 198);
 }
 
-.authentication {
-    flex: .25;
-    background-color: aliceblue;
-}
-
-.auth-way {
-    display: flex;
-    justify-content: space-between;
-    padding-inline-end: 4rem;
-    margin-top: 1rem;
-}
-
-.signup {
-    margin-right: 1rem;
-    width: 7rem;
-    height: 3rem;
-    background-color: rgb(110, 228, 189);
-    border-radius: 15px;
-    color: white;
-}
-
-.signup:hover {
-    background-color: rgb(107, 200, 169);
-}
-
-.login {
-    margin-left: 3rem;
-    width: 7rem;
-    height: 3rem;
-    box-sizing: border-box;
-}
-
 .container {
     height: 55rem;
 }

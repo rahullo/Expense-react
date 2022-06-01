@@ -27,3 +27,34 @@
         display: none;
     }
 }
+
+.authentication {
+    flex: .25;
+    background-color: aliceblue;
+}
+
+.auth-way {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-end: 4rem;
+    margin-top: 1rem;
+}
+
+.signup {
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(110, 228, 189);
+    border-radius: 15px;
+    color: white;
+}
+
+.signup:hover {
+    background-color: rgb(107, 200, 169);
+}
+
+.login {
+    margin-left: 1rem;
+    width: 7rem;
+    height: 3rem;
+    box-sizing: border-box;
+}

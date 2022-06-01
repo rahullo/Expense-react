@@ -6,6 +6,7 @@ import SignUp from './components/SignUp/signup.component';
 
 
 import { Routes, Route} from 'react-router-dom'
+import Login from './components/LogIn/login.component';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route  index element={<Landing/>}/>
           <Route  path='record' element={<Record/>}/>
           <Route path='sign-up' element={<SignUp/>}/>
+          <Route path='log-in' element={<Login/>}/>
         </Route>
       </Routes>
       

@@ -28,7 +28,9 @@ const Navigation = () => {
                     </nav>
                     <nav className="authentication">
                         <ul className="auth-way">
-                            <li><button className="login">Log In</button></li>
+                            <Link className="login" to='/log-in'>
+                                <li><button className="login">Log In</button></li>
+                            </Link>
                             <Link className="signup" to="/sign-up">
                                 <li><button className="signup">Sign Up</button></li>
                             </Link>
