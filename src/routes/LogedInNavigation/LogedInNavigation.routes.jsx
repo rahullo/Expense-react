@@ -17,7 +17,7 @@ const LogedINNav = () => {
                 </Link>
                 <nav className="logedin-function">
                     <ul className="logedin-function-list">
-                        <Link className='logedin-customer' to='/loged-in'><li><button className="customer">Record</button></li></Link> 
+                        <Link to='records'><li><button >Record</button></li></Link> 
                         <li><button>Pricing</button></li>
                         <li><button>Docs</button></li>
                         <li><button>Partner</button></li>

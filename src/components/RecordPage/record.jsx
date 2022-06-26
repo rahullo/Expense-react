@@ -75,7 +75,7 @@ const Record = function() {
             <Outlet/>
             <div className="record-main-container">
                 <header className="header">
-                    <div className="months">
+                    <div className="recordmonths">
                         <div className="showing-month">May</div>
                         <div className="navigation">
                             <div className="next-month"><button className='next-month-btn'>Next Month</button> </div>

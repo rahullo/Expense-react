@@ -3,10 +3,11 @@
     font-family: "Odibee Sans";
 }
 
-body {
+
+/* body {
     width: 94.9rem;
     height: 60rem;
-}
+} */
 
 .record-main-container {
     width: 100%;
@@ -14,7 +15,7 @@ body {
     /* background-color: rgb(226, 223, 223); */
 }
 
-.months {
+.recordmonths {
     font-size: 3rem;
     width: 94.9rem;
     height: 4rem;

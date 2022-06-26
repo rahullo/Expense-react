@@ -5,25 +5,29 @@ import { Fragment } from "react"
 
 const LogedIn = () => {
 
+    const handleClick = event => {
+        console.log(event.currentTarget.id);
+      };
+
     return (
         <Fragment>
             <div className='landingpage-container'>
                 <div className="months">
                     <div className="firsthalfyear">
-                        <Link to='/records'><div className="month1 month">JANUARY</div></Link>
-                        <div className="month2 month">FEBRUARY</div>
-                        <div className="month3 month">MARCH</div>
-                        <div className="month4 month">APRIL</div>
-                        <div className="month5 month">MAY</div>
-                        <div className="month6 month">JUNE</div>
+                        <Link id='1' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">JANUARY</div></Link>
+                        <Link id='2' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">FEBRUARY</div></Link>
+                        <Link id='3' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">MARCH</div></Link>
+                        <Link id='4' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">APRIL</div></Link>
+                        <Link id='5' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">MAY</div></Link>
+                        <Link id='6' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">JUNE</div></Link>
                     </div>
                     <div className="secondhalfyear">
-                        <div className="month7 month">JULY</div>
-                        <div className="month8 month">AUGUST</div>
-                        <div className="month9 month">SEPTEMBER</div>
-                        <div  className="month10 month">OCTOBER</div>
-                        <div  className="month11 month">NOVEMBER</div>
-                        <div  className="month12 month">DECEMBER</div>
+                        <Link id='7' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">JULY</div></Link>
+                        <Link id='8' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">AUGUST</div></Link>
+                        <Link id='9' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">SEPTEMBER</div></Link>
+                        <Link id='10' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">OCTOBER</div></Link>
+                        <Link id='11' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">NOVEMBER</div></Link>
+                        <Link id='12' to='records' style={{textDecoration:"none"}} onClick={handleClick}><div className="month1 month">DECEMBER</div></Link>
                     </div>
                 </div>
             </div>

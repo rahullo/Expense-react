@@ -1,6 +1,6 @@
 import './App.css';
 import Landing from './components/landingPage/landing.jsx';
-// import Record from './components/RecordPage/record';
+import Record from './components/RecordPage/record';
 import Navigation from './routes/navigation/navigation';
 import SignUp from './components/SignUp/signup.component';
 import LogedINNav from "./routes/LogedInNavigation/LogedInNavigation.routes"
@@ -22,7 +22,7 @@ function App() {
         </Route>
         <Route path='/loged-in' element={<LogedINNav/>}>
           <Route  index element={<LogedIn/>}/>
-          {/* <Route  path='/records' element={<Record/>}/> */}
+          <Route  path='records' element={<Record/>}/>
         </Route>
       </Routes>
       
