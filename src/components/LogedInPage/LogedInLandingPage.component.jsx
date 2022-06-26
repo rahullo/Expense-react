@@ -1,5 +1,5 @@
 import './LogedInLandingPage.style.css'
-
+import { Link } from 'react-router-dom'
 import { Fragment } from "react"
 
 
@@ -10,7 +10,7 @@ const LogedIn = () => {
             <div className='landingpage-container'>
                 <div className="months">
                     <div className="firsthalfyear">
-                        <div className="month1 month">JANUARY</div>
+                        <Link to='/records'><div className="month1 month">JANUARY</div></Link>
                         <div className="month2 month">FEBRUARY</div>
                         <div className="month3 month">MARCH</div>
                         <div className="month4 month">APRIL</div>

@@ -22,6 +22,7 @@ function App() {
         </Route>
         <Route path='/loged-in' element={<LogedINNav/>}>
           <Route  index element={<LogedIn/>}/>
+          {/* <Route  path='/records' element={<Record/>}/> */}
         </Route>
       </Routes>
       
