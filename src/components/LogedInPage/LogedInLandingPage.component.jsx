@@ -1,14 +1,24 @@
 import './LogedInLandingPage.style.css'
 import { Link } from 'react-router-dom'
 import { Fragment } from "react"
+import { Routes, Route} from 'react-router-dom'
+import Record from '../RecordPage/record.jsx'
 
+
+let idd;
+const handleClick = event => {
+    idd = event.currentTarget.id
+    return (
+        <Routes>
+            <Route  path='records' element={<Record/>} idd={idd}/>
+        </Routes>
+    )
+    
+};
+
+export {idd}
 
 const LogedIn = () => {
-
-    const handleClick = event => {
-        console.log(event.currentTarget.id);
-      };
-
     return (
         <Fragment>
             <div className='landingpage-container'>
@@ -38,3 +48,4 @@ const LogedIn = () => {
 }
 
 export default LogedIn
+// export default handleClick

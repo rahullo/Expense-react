@@ -7,10 +7,13 @@ import './record.style.css'
 import { Outlet } from 'react-router'
 
 
-const Record = function() {
+const Record = function(props) {
+    let idd = props 
+    
+    console.log(idd)
 
     const expense = [
-        {
+        [{
             "id": 1,
             "date": "6 May 2022",
             "price": 440,
@@ -57,7 +60,103 @@ const Record = function() {
             "date": "31 May 2022",
             "price": 299,
             "items":["Mobile recharge"]
-        }
+        }],
+        [{
+            "id": 1,
+            "date": "6 June 2022",
+            "price": 440,
+            "items":["Rice Dal Masala"]
+        },
+        {
+            "id": 2,
+            "date": "10 June 2022",
+            "price": 200,
+            "items":["Vegetables"]
+        },
+        {
+            "id": 3,
+            "date": "16 June 2022",
+            "price": 1000,
+            "items":["Examination Fee"]
+        },
+        {
+            "id": 4,
+            "date": "15 June 2022",
+            "price": 180,
+            "items":["Mustard Oil"]
+        },
+        {
+            "id": 5,
+            "date": "20 June 2022",
+            "price": 200,
+            "items":["School Project"]
+        },
+        {
+            "id": 6,
+            "date": "25 June 2022",
+            "price": 400,
+            "items":["Gas refueling"]
+        },
+        {
+            "id": 7,
+            "date": "29 June 2022",
+            "price": 2500,
+            "items":["Rent"]
+        },
+        {
+            "id": 8,
+            "date": "31 June 2022",
+            "price": 299,
+            "items":["Mobile recharge"]
+        }],
+        [{
+            "id": 1,
+            "date": "6 July 2022",
+            "price": 440,
+            "items":["Rice Dal Masala"]
+        },
+        {
+            "id": 2,
+            "date": "10 July 2022",
+            "price": 200,
+            "items":["Vegetables"]
+        },
+        {
+            "id": 3,
+            "date": "16 July 2022",
+            "price": 1000,
+            "items":["Examination Fee"]
+        },
+        {
+            "id": 4,
+            "date": "15 July 2022",
+            "price": 180,
+            "items":["Mustard Oil"]
+        },
+        {
+            "id": 5,
+            "date": "20 July 2022",
+            "price": 200,
+            "items":["School Project"]
+        },
+        {
+            "id": 6,
+            "date": "25 July 2022",
+            "price": 400,
+            "items":["Gas refueling"]
+        },
+        {
+            "id": 7,
+            "date": "29 July 2022",
+            "price": 2500,
+            "items":["Rent"]
+        },
+        {
+            "id": 8,
+            "date": "31 July 2022",
+            "price": 299,
+            "items":["Mobile recharge"]
+        }]
         
     ]
 
@@ -98,7 +197,7 @@ const Record = function() {
                         </div>
                         <div className="content-container">
                             {
-                              expense.map((element) => (
+                              expense[2].map((element) => (
                                   <Content  key={element.id} element={element}/>
                               ))
                             }
